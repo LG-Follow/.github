@@ -37,7 +37,26 @@ The model was trained using the Flickr30k dataset, enabling it to recognize and 
 
 ## Datasets
 
-[Datasets link](https://huggingface.co/datasets/nlphuji/flickr30k)
+https://huggingface.co/datasets/nlphuji/flickr30k
+
+About the Dataset
+The Flickr30k dataset is a comprehensive collection of images with corresponding textual descriptions, designed to facilitate research and development in the field of computer vision and natural language processing. This dataset is widely used for tasks such as image captioning, visual question answering, and multimodal learning. By linking visual data with descriptive text, it serves as a robust resource for understanding and modeling the relationship between images and language.
+
+Data Source
+This dataset was sourced from Hugging Face Datasets, specifically the Flickr30k dataset. It includes the following core features:
+
+Images: High-quality images from diverse scenarios and categories.
+Text Descriptions: Multiple descriptive sentences per image, capturing varying levels of detail and context.
+
+Data Overview
+
+The dataset contains:
+30,000 images: Each image is paired with five unique textual descriptions.
+Text descriptions: Focused on actions, objects, and scenes, providing a detailed narrative for each image.
+
+Features:
+Image: The visual data in JPEG format.
+Captions: A list of five captions describing the corresponding image.
 
 [Original paper](https://aclanthology.org/Q14-1006.pdf)
 
