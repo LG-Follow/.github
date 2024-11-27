@@ -12,6 +12,11 @@ Additionally,  we provide an app that turns children's drawings into songs using
 
 Through generative AI, the drawings will be transformed into prompts, and those prompts will be turned into music.
 
+
+## Tech blog
+
+https://www.notion.so/LG-Follow-13d35f1ee75580198f3cefcb1fb725ad
+
 ---
 
 ## AI_Purpose
