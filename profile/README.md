@@ -13,6 +13,72 @@ Additionally,  we provide an app that turns children's drawings into songs using
 Through generative AI, the drawings will be transformed into prompts, and those prompts will be turned into music.
 
 
+## AI Purpose
+
+Our team has developed a multimodal deep learning model based on the BLIP architecture to generate prompts from images. BLIP is a model that connects images and text, making it possible to create descriptive and meaningful prompts from images. 
+
+To enhance the accuracy of BLIP and produce richer prompts, we fine-tuned the model using the Flickr30k dataset via the Hugging Face framework. Flickr30k is a comprehensive dataset containing everyday images with detailed annotations. 
+
+This fine-tuning process has improved the model's ability to interpret and describe various types of visual input, including real-world images and hand-drawn illustrations.
+
+
+# AI Functionality
+
+The model takes an input image and generates a descriptive prompt based on its visual features. This functionality allows the user to easily extract meaningful textual descriptions from various types of images, such as real-world photos or hand-drawn sketches. 
+
+The model was trained using the Flickr30k dataset, enabling it to recognize and describe a wide range of visual elements effectively.
+
+
+# Dataset
+
+URL: https://huggingface.co/datasets/nlphuji/flickr30k
+
+Original paper: From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions
+
+Homepage: https://shannon.cs.illinois.edu/DenotationGraph/
+
+
+# AI Directory organization
+
+![스크린샷 2024-11-27 171529](https://github.com/user-attachments/assets/ed64de5d-723c-4bf0-bbab-29cfad6a2a99)
+
+
+# AI Class component
+
+• main.py: The main entry point of the project.
+
+• train model.py: Script for training the BLIP model using
+provided configurations and datasets.
+
+• configs: This is a directory for configuration of BLIP
+model training.
+– blip config.json: Contains epoch number,
+architecture settings, and training configurations for
+BLIP.
+
+• project directory/models/trained model: Directory con-
+taining the trained model and associated configuration
+files.
+– config.json: Metadata about the model, including
+architecture and dataset details.
+– generation config.json: Settings for generating
+outputs.
+– preprocessor config.json: Configuration for
+preprocessing images and input data for
+compatibility with the model.
+
+• utils: A directory for utility scripts used during training,
+preprocessing, and inference.
+– blip prompting.py: Script for generating prompts
+from images using the BLIP model.
+– blip training.py: Script for handling the BLIP
+model’s training pipeline.
+– collate.py: Utility for batching and collating input
+data during training or inference.
+– data processing.py: Functions for processing and
+augmenting datasets for model training
+
+
 ## 🧑‍🤝‍🧑 Members
 
 | Name        | Organization                         | E-mail                        |
