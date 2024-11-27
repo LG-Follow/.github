@@ -12,7 +12,7 @@ Additionally,  we provide an app that turns children's drawings into songs using
 
 Through generative AI, the drawings will be transformed into prompts, and those prompts will be turned into music.
 
-
+---
 ## AI Purpose
 
 Our team has developed a multimodal deep learning model based on the BLIP architecture to generate prompts from images. BLIP is a model that connects images and text, making it possible to create descriptive and meaningful prompts from images. 
@@ -22,14 +22,14 @@ To enhance the accuracy of BLIP and produce richer prompts, we fine-tuned the mo
 This fine-tuning process has improved the model's ability to interpret and describe various types of visual input, including real-world images and hand-drawn illustrations.
 
 
-# AI Functionality
+## AI Functionality
 
 The model takes an input image and generates a descriptive prompt based on its visual features. This functionality allows the user to easily extract meaningful textual descriptions from various types of images, such as real-world photos or hand-drawn sketches. 
 
 The model was trained using the Flickr30k dataset, enabling it to recognize and describe a wide range of visual elements effectively.
 
 
-# Dataset
+## Dataset
 
 URL: https://huggingface.co/datasets/nlphuji/flickr30k
 
@@ -38,12 +38,12 @@ Original paper: From image descriptions to visual denotations: New similarity me
 Homepage: https://shannon.cs.illinois.edu/DenotationGraph/
 
 
-# AI Directory organization
+## AI Directory organization
 
 ![스크린샷 2024-11-27 172245](https://github.com/user-attachments/assets/dc9816c2-4d31-460c-ad1a-126c65b5ff3f)
 
 
-# AI Class component
+## AI Class component
 
 * main.py: The main entry point of the project.
 
