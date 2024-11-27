@@ -36,15 +36,13 @@ Datasets URL: https://huggingface.co/datasets/nlphuji/flickr30k
 
 Original paper: https://aclanthology.org/Q14-1006.pdf
 
-Homepage: https://shannon.cs.illinois.edu/DenotationGraph/
-
 
 ## AI_Directory organization
 
 ![스크린샷 2024-11-27 172245](https://github.com/user-attachments/assets/dc9816c2-4d31-460c-ad1a-126c65b5ff3f)
 
 
-## Explaining AI code
+## Class component
 
 Location of source code: https://github.com/LG-Follow/AI
 
