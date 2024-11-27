@@ -15,7 +15,7 @@ Through generative AI, the drawings will be transformed into prompts, and those 
 
 ## Tech blog
 
-https://www.notion.so/LG-Follow-13d35f1ee75580198f3cefcb1fb725ad
+[Notion link](https://www.notion.so/LG-Follow-13d35f1ee75580198f3cefcb1fb725ad)
 
 ---
 
@@ -37,9 +37,9 @@ The model was trained using the Flickr30k dataset, enabling it to recognize and 
 
 ## Datasets
 
-Datasets URL: https://huggingface.co/datasets/nlphuji/flickr30k
+[Datasets link](https://huggingface.co/datasets/nlphuji/flickr30k)
 
-Original paper: https://aclanthology.org/Q14-1006.pdf
+[Original paper](https://aclanthology.org/Q14-1006.pdf)
 
 
 ## AI_Directory organization
