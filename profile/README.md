@@ -19,7 +19,7 @@ Through generative AI, the drawings will be transformed into prompts, and those 
 
 ---
 
-## AI_Purpose
+## 🖥️ AI_Purpose
 
 Our team has developed a multimodal deep learning model based on the BLIP architecture to generate prompts from images. BLIP is a model that connects images and text, making it possible to create descriptive and meaningful prompts from images. 
 
@@ -28,40 +28,51 @@ To enhance the accuracy of BLIP and produce richer prompts, we fine-tuned the mo
 This fine-tuning process has improved the model's ability to interpret and describe various types of visual input, including real-world images and hand-drawn illustrations.
 
 
-## AI_Functionality
+## 🖥️ AI_Functionality
 
 The model takes an input image and generates a descriptive prompt based on its visual features. This functionality allows the user to easily extract meaningful textual descriptions from various types of images, such as real-world photos or hand-drawn sketches. 
 
 The model was trained using the Flickr30k dataset, enabling it to recognize and describe a wide range of visual elements effectively.
 
 
-## Datasets
+## 🖥️ Datasets
 
 https://huggingface.co/datasets/nlphuji/flickr30k
+[**Flickr30k Dataset**](https://huggingface.co/datasets/nlphuji/flickr30k)
 
-About the Dataset
-The Flickr30k dataset is a comprehensive collection of images with corresponding textual descriptions, designed to facilitate research and development in the field of computer vision and natural language processing. This dataset is widely used for tasks such as image captioning, visual question answering, and multimodal learning. By linking visual data with descriptive text, it serves as a robust resource for understanding and modeling the relationship between images and language.
+### **About the Dataset**
+The **Flickr30k dataset** is a comprehensive collection of images with corresponding textual descriptions, designed to facilitate research and development in the field of computer vision and natural language processing. This dataset is widely used for tasks such as:
 
-Data Source
-This dataset was sourced from Hugging Face Datasets, specifically the Flickr30k dataset. It includes the following core features:
+- **Image Captioning**
+- **Visual Question Answering**
+- **Multimodal Learning**
 
-Images: High-quality images from diverse scenarios and categories.
-Text Descriptions: Multiple descriptive sentences per image, capturing varying levels of detail and context.
+By linking visual data with descriptive text, it serves as a robust resource for understanding and modeling the relationship between **images and language**.
 
-Data Overview
+---
+
+### **Data Source**
+This dataset was sourced from [**Hugging Face Datasets**](https://huggingface.co/datasets/nlphuji/flickr30k), specifically the **Flickr30k dataset**. It includes the following core features:
+
+- **Images**: High-quality images from diverse scenarios and categories.
+- **Text Descriptions**: Multiple descriptive sentences per image, capturing varying levels of detail and context.
+
+---
+
+### **Data Overview**
 
 The dataset contains:
-30,000 images: Each image is paired with five unique textual descriptions.
-Text descriptions: Focused on actions, objects, and scenes, providing a detailed narrative for each image.
+- **30,000 images**: Each image is paired with five unique textual descriptions.
+- **Text descriptions**: Focused on actions, objects, and scenes, providing a detailed narrative for each image.
 
-Features:
-Image: The visual data in JPEG format.
-Captions: A list of five captions describing the corresponding image.
+### **Features**:
+- **Image**: The visual data in JPEG format.
+- **Captions**: A list of five captions describing the corresponding image.
 
 [Original paper](https://aclanthology.org/Q14-1006.pdf)
 
 
-## AI_Directory organization
+## 🖥️ AI_Directory organization
 
 ![스크린샷 2024-11-27 172245](https://github.com/user-attachments/assets/dc9816c2-4d31-460c-ad1a-126c65b5ff3f)
 
