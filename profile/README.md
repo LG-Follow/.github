@@ -40,43 +40,33 @@ Homepage: https://shannon.cs.illinois.edu/DenotationGraph/
 
 # AI Directory organization
 
-![스크린샷 2024-11-27 171529](https://github.com/user-attachments/assets/ed64de5d-723c-4bf0-bbab-29cfad6a2a99)
+![스크린샷 2024-11-27 172245](https://github.com/user-attachments/assets/dc9816c2-4d31-460c-ad1a-126c65b5ff3f)
 
 
 # AI Class component
 
-• main.py: The main entry point of the project.
+* main.py: The main entry point of the project.
 
-• train model.py: Script for training the BLIP model using
-provided configurations and datasets.
+* train model.py: Script for training the BLIP model using provided configurations and datasets.
 
-• configs: This is a directory for configuration of BLIP
-model training.
-– blip config.json: Contains epoch number,
-architecture settings, and training configurations for
-BLIP.
+* configs: This is a directory for configuration of BLIP model training.
+  * blip config.json: Contains epoch number, architecture settings, and training configurations for BLIP.
 
-• project directory/models/trained model: Directory con-
-taining the trained model and associated configuration
-files.
-– config.json: Metadata about the model, including
-architecture and dataset details.
-– generation config.json: Settings for generating
-outputs.
-– preprocessor config.json: Configuration for
-preprocessing images and input data for
-compatibility with the model.
+* project directory/models/trained model: Directory containing the trained model and associated configuration files.
+  * config.json: Metadata about the model, including architecture and dataset details.
+    
+  * generation config.json: Settings for generating outputs.
+    
+  * preprocessor config.json: Configuration for preprocessing images and input data for compatibility with the model.
 
-• utils: A directory for utility scripts used during training,
-preprocessing, and inference.
-– blip prompting.py: Script for generating prompts
-from images using the BLIP model.
-– blip training.py: Script for handling the BLIP
-model’s training pipeline.
-– collate.py: Utility for batching and collating input
-data during training or inference.
-– data processing.py: Functions for processing and
-augmenting datasets for model training
+* utils: A directory for utility scripts used during training,preprocessing, and inference.
+  * blip prompting.py: Script for generating prompts from images using the BLIP model.
+    
+  * blip training.py: Script for handling the BLIP model’s training pipeline.
+    
+  * collate.py: Utility for batching and collating input data during training or inference.
+    
+  * data processing.py: Functions for processing and augmenting datasets for model training.
 
 
 ## 🧑‍🤝‍🧑 Members
