@@ -1,5 +1,7 @@
 # LG Follow
 
+![KakaoTalk_20241206_001420615](https://github.com/user-attachments/assets/48efc328-af90-45d6-ad90-d0bff8b0a05c)
+
 ## 📗 Proposal
 
 We are introducing technology that allows sound to follow the user, creating an environment where they can hear audio in any part of the house with LG appliances equipped with speakers.
