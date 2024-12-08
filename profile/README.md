@@ -78,12 +78,6 @@ The dataset contains:
 
 [Original paper](https://aclanthology.org/Q14-1006.pdf)
 
-
-## 🖥️ AI_Directory organization
-
-![스크린샷 2024-11-27 172245](https://github.com/user-attachments/assets/dc9816c2-4d31-460c-ad1a-126c65b5ff3f)
-
-
 ## Class component
 
 Location of source code: https://github.com/LG-Follow/AI
