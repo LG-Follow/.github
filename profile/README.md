@@ -14,6 +14,11 @@ Additionally,  we provide an app that turns children's drawings into songs using
 
 Through generative AI, the drawings will be transformed into prompts, and those prompts will be turned into music.
 
+## Architecture Design
+
+![Architecture](https://github.com/user-attachments/assets/348f18d2-9f39-40b7-ad17-243c67476bcc)
+
+
 
 ## Tech blog
 
