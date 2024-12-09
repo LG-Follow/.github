@@ -16,7 +16,7 @@ Through generative AI, the drawings will be transformed into prompts, and those 
 
 ## Architecture Design
 
-![Architecture](https://github.com/user-attachments/assets/348f18d2-9f39-40b7-ad17-243c67476bcc)
+![Architecture](https://github.com/user-attachments/assets/d23147ce-ae46-4579-a12e-10464a173c09)
 
 
 
