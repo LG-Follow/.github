@@ -23,7 +23,7 @@ Through generative AI, the drawings will be transformed into prompts, and those 
 
 ## Tech blog
 
-[Notion link](https://www.notion.so/LG-Follow-13d35f1ee75580198f3cefcb1fb725ad)
+**[Notion link](https://www.notion.so/LG-Follow-13d35f1ee75580198f3cefcb1fb725ad)**
 
 ---
 
