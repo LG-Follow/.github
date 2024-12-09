@@ -19,6 +19,7 @@ Through generative AI, the drawings will be transformed into prompts, and those 
 ![Architecture](https://github.com/user-attachments/assets/d23147ce-ae46-4579-a12e-10464a173c09)
 
 
+---
 
 ## Tech blog
 
