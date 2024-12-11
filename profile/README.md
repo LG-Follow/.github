@@ -23,7 +23,7 @@ Through generative AI, the drawings will be transformed into prompts, and those 
 
 ## 📌 Tech blog
 
-**[Notion link](https://www.notion.so/LG-Follow-13d35f1ee75580198f3cefcb1fb725ad)**
+**[Notion link](https://bit.ly/LG-Follow)**
 
 ---
 
@@ -112,8 +112,8 @@ Location of source code: https://github.com/LG-Follow/AI
 
 | Name        | Organization                         | E-mail                        |
 |-------------|-------------------------------|-------------------------------|
-| **Mingyu Jung** | Dept. of Information Systems | [alsrb595@hanyang.ac.kr](mailto:alsrb595@hanyang.ac.kr) |
-| **Taegeon Park** | Dept. of Information Systems | [qkrxorjs@hanyang.ac.kr](mailto:qkrxorjs@hanyang.ac.kr) |
 | **Gyudong Kim** | Dept. of Information Systems | [gyudong1594@hanyang.ac.kr](mailto:gyudong1594@hanyang.ac.kr) |
 | **Mingeun Kim** | Dept. of Information Systems | [alsrms0206@hanyang.ac.kr](mailto:alsrms0206@hanyang.ac.kr) |
+| **Taegeon Park** | Dept. of Information Systems | [qkrxorjs@hanyang.ac.kr](mailto:qkrxorjs@hanyang.ac.kr) |
+| **Mingyu Jung** | Dept. of Information Systems | [alsrb595@hanyang.ac.kr](mailto:alsrb595@hanyang.ac.kr) |
 
