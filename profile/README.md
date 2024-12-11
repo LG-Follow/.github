@@ -21,7 +21,7 @@ Through generative AI, the drawings will be transformed into prompts, and those 
 
 ---
 
-## 📌 Tech blog
+## 📌 Tech Blog
 
 **[Notion link](https://bit.ly/LG-Follow)**
 
@@ -79,7 +79,7 @@ The dataset contains:
 
 [Original paper](https://aclanthology.org/Q14-1006.pdf)
 
-## Class component
+## Class Component
 
 Location of source code: https://github.com/LG-Follow/AI
 
