@@ -46,6 +46,7 @@ The model was trained using the Flickr30k dataset, enabling it to recognize and 
 ## 🖥️ AI_Table
 
 ![AI_Table](https://github.com/user-attachments/assets/89435f7b-9c54-4190-b484-65a5e69b3d19)
+---
 
 - BLIP (Bootstrapping Language-Image Pre-training)
   - The BLIP model is a multimodal model designed to connect images and text. It is capable of generating descriptive text prompts based on the visual features of input images.
@@ -97,7 +98,7 @@ The dataset contains:
 - **30,000 images**: Each image is paired with five unique textual descriptions.
 - **Text descriptions**: Focused on actions, objects, and scenes, providing a detailed narrative for each image.
 
-### **Features**:
+### Features:
 - **Image**: The visual data in JPEG format.
 - **Captions**: A list of five captions describing the corresponding image.
 
