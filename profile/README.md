@@ -70,66 +70,34 @@ The model was trained using the Flickr30k dataset, enabling it to recognize and 
 
 ## 🖥️ Datasets
 
-https://huggingface.co/datasets/nlphuji/flickr30k
-[**Flickr30k Dataset**](https://huggingface.co/datasets/nlphuji/flickr30k)
+[**Flickr30k dataset**](https://huggingface.co/datasets/nlphuji/flickr30k)
 
-### **About the Dataset**
-The **Flickr30k dataset** is a comprehensive collection of images with corresponding textual descriptions, designed to facilitate research and development in the field of computer vision and natural language processing. This dataset is widely used for tasks such as:
+### About the Dataset
+The Flickr30k dataset is a comprehensive collection of images with corresponding textual descriptions, designed to facilitate research and development in the field of computer vision and natural language processing. This dataset is widely used for tasks such as:
 
-- **Image Captioning**
-- **Visual Question Answering**
-- **Multimodal Learning**
+- Image Captioning
+- Visual Question Answering
+- Multimodal Learning
 
-By linking visual data with descriptive text, it serves as a robust resource for understanding and modeling the relationship between **images and language**.
-
----
-
-### **Data Source**
-This dataset was sourced from [**Hugging Face Datasets**](https://huggingface.co/datasets/nlphuji/flickr30k), specifically the **Flickr30k dataset**. It includes the following core features:
-
-- **Images**: High-quality images from diverse scenarios and categories.
-- **Text Descriptions**: Multiple descriptive sentences per image, capturing varying levels of detail and context.
+By linking visual data with descriptive text, it serves as a robust resource for understanding and modeling the relationship between images and language.
 
 ---
 
-### **Data Overview**
+### Data Overview
 
 The dataset contains:
-- **30,000 images**: Each image is paired with five unique textual descriptions.
-- **Text descriptions**: Focused on actions, objects, and scenes, providing a detailed narrative for each image.
+- 30,000 images: Each image is paired with five unique textual descriptions.
+- Text descriptions: Focused on actions, objects, and scenes, providing a detailed narrative for each image.
 
 ### Features:
-- **Image**: The visual data in JPEG format.
-- **Captions**: A list of five captions describing the corresponding image.
+- Image: The visual data in JPEG format.
+- Captions: A list of five captions describing the corresponding image.
 
 [Original paper](https://aclanthology.org/Q14-1006.pdf)
 
 ## Class Component
 
-Location of source code: https://github.com/LG-Follow/AI
-
-* main.py: The main entry point of the project.
-
-* train model.py: Script for training the BLIP model using provided configurations and datasets.
-
-* configs: This is a directory for configuration of BLIP model training.
-  * blip config.json: Contains epoch number, architecture settings, and training configurations for BLIP.
-
-* project directory/models/trained model: Directory containing the trained model and associated configuration files.
-  * config.json: Metadata about the model, including architecture and dataset details.
-    
-  * generation config.json: Settings for generating outputs.
-    
-  * preprocessor config.json: Configuration for preprocessing images and input data for compatibility with the model.
-
-* utils: A directory for utility scripts used during training,preprocessing, and inference.
-  * blip prompting.py: Script for generating prompts from images using the BLIP model.
-    
-  * blip training.py: Script for handling the BLIP model’s training pipeline.
-    
-  * collate.py: Utility for batching and collating input data during training or inference.
-    
-  * data processing.py: Functions for processing and augmenting datasets for model training.
+**Location of source code: [Github link](https://github.com/LG-Follow/AI)**
 
 ---
 
