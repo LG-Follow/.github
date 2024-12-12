@@ -16,7 +16,7 @@ Through generative AI, the drawings will be transformed into prompts, and those 
 
 ## 📐 Architecture Design 
 
-![a](https://github.com/user-attachments/assets/e58da165-0b03-48c4-9519-fce485038eef)
+![a](https://github.com/user-attachments/assets/213efea3-726e-4c5e-8b62-e4d11b676331)
 
 
 ---
@@ -45,7 +45,7 @@ The model was trained using the Flickr30k dataset, enabling it to recognize and 
 
 ## 🖥️ AI_Table
 
-![b](https://github.com/user-attachments/assets/679e5095-9f1a-4a1a-addc-57b3d3927aa2)
+![b](https://github.com/user-attachments/assets/517f8f30-5507-4dca-ad37-beb50d372bf3)
 
 
 ## 🖥️ Datasets
