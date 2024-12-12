@@ -48,22 +48,22 @@ The model was trained using the Flickr30k dataset, enabling it to recognize and 
 ![AI_Table](https://github.com/user-attachments/assets/89435f7b-9c54-4190-b484-65a5e69b3d19)
 ---
 
-- BLIP (Bootstrapping Language-Image Pre-training)
+- **BLIP (Bootstrapping Language-Image Pre-training)**
   - The BLIP model is a multimodal model designed to connect images and text. It is capable of generating descriptive text prompts based on the visual features of input images.
   - The model is used to analyze input images and generate relevant text prompts that describe the visual content. This is especially useful for tasks involving image captioning or generating textual descriptions from images.
 
-- Flickr30K Dataset
+- **Flickr30K dataset**
   - The Flickr30K dataset is a comprehensive collection of everyday images, each annotated with detailed captions. This dataset contains 30,000 images and associated text descriptions, providing a wide variety of visual contexts.
   - The dataset was used to fine-tune the BLIP model, significantly improving its accuracy and enhancing its ability to generate richer and more contextually accurate text prompts based on visual elements.
 
-- PyTorch: PyTorch was used as the framework for implementing and training the deep learning model. Its integration with Hugging Face facilitated the fine-tuning process with the Flickr30K dataset.
+- **PyTorch**: PyTorch was used as the framework for implementing and training the deep learning model. Its integration with Hugging Face facilitated the fine-tuning process with the Flickr30K dataset.
 
-- Training Details
+- **Training Details**
   - Epochs: The model was trained on the entire dataset for 3 epochs. This allows the model to sufficiently learn the patterns in the data and improve its generalization capabilities.
   - Time per Epoch: Each epoch took approximately 5 hours to complete, reflecting the model's complexity and the large size of the dataset.
   - Effect: These training configurations helped the model improve its ability to understand fine-grained visual details and convert them into meaningful text descriptions.
 
-- System Configuration
+- **System Configuration**
   - CPU: Intel Core i5 processor
   - RAM: 32GB, enabling efficient processing of large datasets and fast training times.
 
@@ -85,11 +85,11 @@ By linking visual data with descriptive text, it serves as a robust resource for
 
 ### Data Overview
 
-The dataset contains:
+**The dataset contains**:
 - 30,000 images: Each image is paired with five unique textual descriptions.
 - Text descriptions: Focused on actions, objects, and scenes, providing a detailed narrative for each image.
 
-### Features:
+ **Features**:
 - Image: The visual data in JPEG format.
 - Captions: A list of five captions describing the corresponding image.
 
