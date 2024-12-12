@@ -47,7 +47,25 @@ The model was trained using the Flickr30k dataset, enabling it to recognize and 
 
 ![b](https://github.com/user-attachments/assets/517f8f30-5507-4dca-ad37-beb50d372bf3)
 
+- BLIP (Bootstrapping Language-Image Pre-training)
+ - The BLIP model is a multimodal model designed to connect images and text. It is capable of generating descriptive text prompts based on the visual features of input images.
+ - The model is used to analyze input images and generate relevant text prompts that describe the visual content. This is especially useful for tasks involving image captioning or generating textual descriptions from images.
 
+- Flickr30K Dataset
+  - The Flickr30K dataset is a comprehensive collection of everyday images, each annotated with detailed captions. This dataset contains 30,000 images and associated text descriptions, providing a wide variety of visual contexts.
+  - The dataset was used to fine-tune the BLIP model, significantly improving its accuracy and enhancing its ability to generate richer and more contextually accurate text prompts based on visual elements.
+
+- System Configuration
+  - CPU: Intel Core i7 processor
+  - RAM: 64GB, enabling efficient processing of large datasets and fast training times.
+  - PyTorch: PyTorch was used as the framework for implementing and training the deep learning model. Its integration with Hugging Face facilitated the fine-tuning process with the Flickr30K dataset.
+
+- Training Details
+  - Epochs: The model was trained on the entire dataset for 3 epochs. This allows the model to sufficiently learn the patterns in the data and improve its generalization capabilities.
+  - Time per Epoch: Each epoch took approximately 5 hours to complete, reflecting the model's complexity and the large size of the dataset.
+  - Effect: These training configurations helped the model improve its ability to understand fine-grained visual details and convert them into meaningful text descriptions.
+
+  
 ## 🖥️ Datasets
 
 https://huggingface.co/datasets/nlphuji/flickr30k
