@@ -48,8 +48,8 @@ The model was trained using the Flickr30k dataset, enabling it to recognize and 
 ![b](https://github.com/user-attachments/assets/517f8f30-5507-4dca-ad37-beb50d372bf3)
 
 - BLIP (Bootstrapping Language-Image Pre-training)
- - The BLIP model is a multimodal model designed to connect images and text. It is capable of generating descriptive text prompts based on the visual features of input images.
- - The model is used to analyze input images and generate relevant text prompts that describe the visual content. This is especially useful for tasks involving image captioning or generating textual descriptions from images.
+  - The BLIP model is a multimodal model designed to connect images and text. It is capable of generating descriptive text prompts based on the visual features of input images.
+  - The model is used to analyze input images and generate relevant text prompts that describe the visual content. This is especially useful for tasks involving image captioning or generating textual descriptions from images.
 
 - Flickr30K Dataset
   - The Flickr30K dataset is a comprehensive collection of everyday images, each annotated with detailed captions. This dataset contains 30,000 images and associated text descriptions, providing a wide variety of visual contexts.
