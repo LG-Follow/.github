@@ -95,9 +95,9 @@ By linking visual data with descriptive text, it serves as a robust resource for
 
 [Original paper](https://aclanthology.org/Q14-1006.pdf)
 
-## Class Component
+### Location of Source Code
 
-**Location of source code: [Github link](https://github.com/LG-Follow/AI)**
+**[Github link](https://github.com/LG-Follow/AI)**
 
 ---
 
